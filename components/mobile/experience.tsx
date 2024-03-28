@@ -29,24 +29,26 @@ export default function Experience() {
 
     return (
         <div className="my-20">
-            <h1 className="my-10 text-sm tracking-widest">EXPERIENCE</h1>
+            <h1 className="my-10 text-sm tracking-widest lg:hidden">EXPERIENCE</h1>
 
-            <div className="my-10">
+            <div className="my-10 lg:mb-20">
                 {
                     experiences.map((exp) => (
-                        <div key={exp.id} className="my-10">
-                            <p className="text-slate-500 text-xs my-2">{exp.start} &mdash; {exp.end}</p>
-                            <h3 className="my-2 text-lg">{exp.title} · {exp.company}</h3>
-                            <p className="my-2 text-slate-300 font-extralight">{exp.desc}</p>
-                            {
-                                displayStack(exp.id)
-                            }
+                        <div key={exp.id} className="my-10 lg:flex lg:flex-row lg:cursor-pointer lg:hover:rounded-xl group">
+                            <p className="text-slate-500 text-xs my-2 lg:w-1/4 lg:my-1.5">{exp.start} &mdash; {exp.end}</p>
+                            <div className="lg:w-3/4">
+                                <h3 className="my-2 text-lg hover:text-cyan-300 group w-fit flex flex-wrap lg:my-0 lg:group-hover:text-cyan-300">{exp.title} · <span className="flex ml-1">{exp.company} <Image src={arrowUpRight} alt='arrow' height={15} width={15} className="group-hover:translate-x-1 group-hover:-translate-y-1 duration-100 ml-1 lg:group-hover:-translate-y-1 lg:group-hover:translate-x-1" /></span></h3>
+                                <p className="my-2 text-slate-300 font-extralight">{exp.desc}</p>
+                                {
+                                    displayStack(exp.id)
+                                }
+                            </div>
                         </div>
                     ))
                 }
             </div>
 
-            <Link href='' className="flex flex-row hover:text-cyan-300 group">View Full Résumé <Image src={arrowUpRight} alt='arrow' height={15} width={15} className="ml-1 group-hover:-translate-y-1 group-hover:translate-x-1 group-hover:fill-current group-hover:text-orange-300 duration-100"/></Link>
+            <Link href='' className="flex flex-row hover:text-cyan-300 group w-fit">View Full Résumé <Image src={arrowUpRight} alt='arrow' height={15} width={15} className="ml-1 group-hover:-translate-y-1 group-hover:translate-x-1 group-hover:fill-current group-hover:text-orange-300 duration-100"/></Link>
         </div>
     )
 }

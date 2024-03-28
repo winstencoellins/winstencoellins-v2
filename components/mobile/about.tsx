@@ -3,7 +3,7 @@ import Link from "next/link"
 export default function About() {
     return (
         <div className="my-20">
-            <h1 className="my-10 text-sm tracking-widest">ABOUT</h1>
+            <h1 className="my-10 text-sm tracking-widest lg:hidden">ABOUT</h1>
 
             <p className="text-slate-300 my-5 font-thin">
                 Back in 2020, I decided to open my own technology education company with my friend in Medan, Indonesia. Focusing on teaching high school students to get their understanding and interest in the field of technology.
