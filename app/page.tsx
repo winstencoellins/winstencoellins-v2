@@ -1,3 +1,4 @@
+import Footer from "@/components/footer";
 import About from "@/components/mobile/about";
 import Experience from "@/components/mobile/experience";
 import Hero from "@/components/mobile/hero";
@@ -12,6 +13,7 @@ export default function Home() {
         <About />
         <Experience />
         <Projects />
+        <Footer />
       </div>
     </div>
   );
