@@ -29,7 +29,7 @@ export default function Projects() {
     }
 
     return (
-        <div className="my-10">
+        <div className="my-10 scroll-my-10" id='project'>
             <h1 className="tracking-widest text-sm my-10 lg:hidden">PROJECTS</h1>
 
             <div>

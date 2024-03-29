@@ -28,7 +28,7 @@ export default function Experience() {
     }
 
     return (
-        <div className="my-20">
+        <div className="my-20 scroll-my-10" id="experience">
             <h1 className="my-10 text-sm tracking-widest lg:hidden">EXPERIENCE</h1>
 
             <div className="my-10 lg:mb-20">

@@ -9,7 +9,7 @@ export default function Footer() {
 
     return (
         <div className="my-20 text-slate-300 text-sm font-thin">
-            Coded in <Link href='/' className="text-white font-normal">Visual Studio Code</Link>. Built with <Link href='' className="text-white font-normal">Next.js</Link> and <Link href='' className="text-white font-normal">Tailwind CSS</Link>, deployed with <Link href='' className="text-white font-normal">Vercel</Link> by Winsten Coellins &copy; {currentYear()}.
+            Coded in <Link href='https://code.visualstudio.com' className="text-white font-normal hover:text-cyan-300">Visual Studio Code</Link>. Built with <Link href='https://nextjs.org' className="text-white font-normal">Next.js</Link> and <Link href='https://tailwindcss.com' className="text-white font-normal">Tailwind CSS</Link>, deployed with <Link href='https://vercel.com' className="text-white font-normal">Vercel</Link> by Winsten Coellins &copy; {currentYear()}.
         </div>
     )
 }

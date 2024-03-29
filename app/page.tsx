@@ -1,8 +1,8 @@
 import Footer from "@/components/footer";
-import About from "@/components/mobile/about";
-import Experience from "@/components/mobile/experience";
-import Hero from "@/components/mobile/hero";
-import Projects from "@/components/mobile/projects";
+import About from "@/components/about";
+import Experience from "@/components/experience";
+import Hero from "@/components/hero";
+import Projects from "@/components/projects";
 
 export default function Home() {
   return (
