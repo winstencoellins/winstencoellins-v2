@@ -12,8 +12,8 @@ const inter = Inter({ subsets: ["latin"] })
 export default function Hero() {
     return (
         <div className="my-14 lg:h-screen lg:w-fit lg:fixed lg:mt-20">
-            <Link href='/' className={`text-4xl font-semibold tracking-tight text-slate-200 lg:text-5xl ${inter.className}`}>Winsten Coellins</Link>
-            <p className={`mt-3 text-lg tracking-tight text-slate-200 lg:text-xl ${inter.className}`}>Associate Software Engineer</p>
+            <Link href='/' className={`text-4xl font-semibold tracking-tight text-slate-200 lg:text-5xl`}>Winsten Coellins</Link>
+            <p className={`mt-3 text-lg tracking-tight text-slate-200 lg:text-xl`}>Associate Software Engineer</p>
             <p className="text-slate-300 max-w-xs mt-4 leading-normal font-extralight lg:text-lg">I build web applications, serve, and mentoring.</p>
 
             <div className="hidden lg:flex lg:flex-col lg:my-16">

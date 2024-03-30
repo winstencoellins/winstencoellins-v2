@@ -10,11 +10,11 @@ export default function About() {
             </p>
 
             <p className="text-slate-300 my-5 font-thin">
-                We started with an only enough knowledge of technology back then as we are still continuing our study in University by teaching the basics of programming to high school students.
+                We started with only enough knowledge of technology back then as we were on our studies at University by teaching the basics of programming to high school students.
             </p>
 
             <p className="text-slate-300 my-5 font-thin">
-                Fast forward today, after graduating from University in the United States, did some work in <Link href='https://www.linkedin.com/company/collab4good' className="text-white font-normal hover:text-cyan-300">non-profit organization</Link> and <Link href='https://www.linkedin.com/company/umify-io/?originalSubdomain=sg' className="text-white font-normal hover:text-cyan-300">financial technology company</Link>, and coming back home. My friend and I continue the dreams of establishing our own technology education company that now developed to not only teaching high school students, but also University students in Medan. Later on, we called this project as <Link href="" className="text-white font-normal hover:text-cyan-300">ProjectX MDN</Link>.
+                Fast forward to today, after graduating from University in the United States, did some work in a <Link href='https://www.linkedin.com/company/collab4good' className="text-white font-normal hover:text-cyan-300">non-profit organization</Link> and <Link href='https://www.linkedin.com/company/umify-io/?originalSubdomain=sg' className="text-white font-normal hover:text-cyan-300">financial technology company</Link>, and came back home. My friend and I continue the dreams of establishing our own technology education company that now developed to not only teach high school students but also University students in Medan. Later on, we called this project<Link href="" className="text-white font-normal hover:text-cyan-300">ProjectX MDN</Link>.
             </p>
             
             <p className="text-slate-300 my-5 font-thin">
