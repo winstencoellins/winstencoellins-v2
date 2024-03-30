@@ -9,7 +9,7 @@ import arrowUpRight from '@/public/svgs/arrow-up-right.svg'
 
 export default function Projects() {
     const projects = [
-        {id: 1, title: 'IP Address Tracker', desc: 'A one-paged web application to track IP Address entered based on location. This project is to demonstrate the knowledge of using multiple API in a single project.', link: 'https://ip-address-tracker-coellins.vercel.app', stack: ['React Js', 'CSS', 'Leaflet Js', 'Geolocation API'], 'img': ipAddressTracker},
+        {id: 1, title: 'IP Address Tracker', desc: 'A one-page web application to track IP Addresses entered based on location. This project is to demonstrate the knowledge of using multiple APIs in a single project.', link: 'https://ip-address-tracker-coellins.vercel.app', stack: ['React Js', 'CSS', 'Leaflet Js', 'Geolocation API'], 'img': ipAddressTracker},
         {id: 2, title: 'Advice Generator', desc: 'A web application that could generate advice taken from the real-world. This project integrate with the API use for generating random advice.', link: 'https://advice-generator-app-coellins.vercel.app', stack: ['React Js', 'CSS', 'API'], 'img': adviceGenerator},
         {id: 3, title: 'Calculator App', desc: 'A simple web application calculator that could be used to calculate simple arithmetic stuff.', link: 'https://winstencoellins.github.io/calculator-app/', stack: ['HTML', 'CSS', 'JavaScript'], 'img': calculator},
     ]
